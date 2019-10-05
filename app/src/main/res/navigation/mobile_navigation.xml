@@ -5,6 +5,7 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/currentWeatherFragment">
 
+
     <fragment
         android:id="@+id/currentWeatherFragment"
         android:name="com.example.ui.weather.current.CurrentWeather"
