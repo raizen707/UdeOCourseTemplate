@@ -32,7 +32,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
-    // Navigation para navergar entre fragmentos, actividades y componentes
+    // Navigation para navegar entre fragmentos, actividades y componentes
     implementation "android.arch.navigation:navigation-fragment:$navigation_version"
     implementation "android.arch.navigation:navigation-ui:$navigation_version"
     implementation "android.arch.navigation:navigation-fragment-ktx:$navigation_version"
@@ -82,6 +82,7 @@ dependencies {
 
     // Preference
     implementation 'androidx.preference:preference:1.1.0'
+
 
     // Location servicio de localizacion
     implementation 'com.google.android.gms:play-services-location:17.0.0'

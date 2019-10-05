@@ -1,7 +1,8 @@
-package com.example.udeocoursetemplate
+package com.example.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.udeocoursetemplate.R
 
 class MainActivity : AppCompatActivity() {
 
