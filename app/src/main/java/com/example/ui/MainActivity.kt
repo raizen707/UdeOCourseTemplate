@@ -1,5 +1,7 @@
 package com.example.ui
 
+
+import android.Manifest
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,11 +17,9 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationResult
 import kotlinx.android.synthetic.main.activity_main.*
-import okhttp3.internal.Internal.instance
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.closestKodein
 import org.kodein.di.generic.instance
-import java.util.jar.Manifest
 
 private const val MY_PERMISSION_ACCESS_COARSE_LOCATION =1
 class MainActivity : AppCompatActivity(), KodeinAware {
@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity(), KodeinAware {
     //manejador de dependencias e inyeccion de control y objetos
     override val kodein by closestKodein()
     private val fusedLocationProviderClient: FusedLocationProviderClient by instance()
+
 
     private val locationCallback = object : LocationCallback(){
         override fun onLocationResult(p0: LocationResult?) {

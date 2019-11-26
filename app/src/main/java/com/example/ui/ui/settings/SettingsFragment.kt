@@ -1,4 +1,4 @@
-package com.example.ui.settings
+package com.example.ui.ui.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

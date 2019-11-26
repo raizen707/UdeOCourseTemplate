@@ -8,12 +8,12 @@
 
     <fragment
         android:id="@+id/currentWeatherFragment"
-        android:name="com.example.ui.weather.current.CurrentWeather"
+        android:name="com.example.ui.ui.settings.weather.current.CurrentWeather"
         android:label="current_weather_fragment"
         tools:layout="@layout/current_weather_fragment" />
     <fragment
         android:id="@+id/futureListWeatherFragment"
-        android:name="com.example.ui.weather.future.list.FutureListWeather"
+        android:name="com.example.ui.ui.settings.weather.future.list.FutureListWeather"
         android:label="future_list_weather_fragment"
         tools:layout="@layout/future_list_weather_fragment" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/futureDetailWeatherFragment"
-        android:name="com.example.ui.weather.future.detail.FeatureDetailWeather"
+        android:name="com.example.ui.ui.settings.weather.future.detail.FeatureDetailWeather"
         android:label="future_detail_weather_fragment"
         tools:layout="@layout/feature_detail_weather_fragment" >
         <argument
@@ -31,6 +31,6 @@
     </fragment>
     <fragment
         android:id="@+id/SettingsFragment"
-        android:name="com.example.ui.settings.SettingsFragment"
+        android:name="com.example.ui.ui.settings.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>
